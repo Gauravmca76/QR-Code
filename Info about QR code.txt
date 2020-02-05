@@ -1,0 +1,21 @@
+Required Lib:
+
+phpqrode/qrlib.php
+
+--------------------------------------------------------------
+
+Syntax:
+
+QRcode::png($text, $file, $ecc, $pixel_Size, $frame_Size);
+
+$text: This parameter gives the message which needs to be in QR code. It is mandatory parameter.
+
+$file: It specifies the place to save the generated QR.
+
+$ecc: This parameter specifies the error correction capability of QR. It has 4 levels L, M, Q and H.
+
+$pixel_Size: This specifies the pixel size of QR.
+
+$frame_Size: This specifies the size of Qr. It is from level 1-10.
+
+
